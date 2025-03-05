@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Caja de transferencia',
+    Description:
+      'La caja de transferencia distribuye la potencia del motor a las ruedas en vehículos con tracción total, mejorando el agarre y la estabilidad. Existen modelos para motores longitudinales y transversales, con sistemas manuales o eléctricos. Los modernos incluyen sensores y controles electrónicos para optimizar el desempeño en distintos terrenos, ajustando automáticamente la tracción según las condiciones.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,27 +36,25 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Caja de transferencia',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Caja de transferencia según la disposición del motor',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Caja de transferencia para motor longitudinal',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Acople con embrague multidisco y electromagnético',
         desarrolloContenidos: true,
       },
     ],
@@ -102,21 +105,98 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
+      tema: 'Caja de transferencia',
+      referencia:
+        'El Conductor Inteligente. (2014). <em>Caja de Transferencia 4x4. [Archivo de video] YouTube</em>.  ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=E4jqDvUv7ps&ab_channel=ElConductorInteligente ',
+    },
+    {
+      tema: 'Caja de transferencia según la disposición del motor',
+      referencia:
+        'Quarks. (s.f.). <em>Caja de Transferencia: Todo lo que Debes Saber</em>.',
       tipo: 'Sitio web',
-      link: '',
+      link:
+        'https://www.quarks.com.co/glosario-terminos/caja-transferencia-funcionamiento ',
+    },
+    {
+      tema: 'Caja de transferencia para motor longitudinal',
+      referencia: 'Motul. (s.f.). <em>Difusión técnica</em>.',
+      tipo: 'Documento',
+      link:
+        'https://motul.com.ar/wp-content/uploads/2021/06/Cajas-de-transferencia.pdf ',
+    },
+    {
+      tema: 'Acople con embrague multidisco y electromagnético',
+      referencia:
+        'Tekmatic. (s.f.). <em>Embragues electromagnéticos multidisco con anillo colector</em>.',
+      tipo: 'Documento',
+      link:
+        'https://tekmatic.com.ar/web/uploads/product_download-files/12/16_EEC_EmbraguesMultidisco.pdf?1603736781  ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Acople electromagnético',
+      significado:
+        'sistema que activa automáticamente la tracción en las cuatro ruedas cuando detecta pérdida de adherencia en las ruedas delanteras.',
+    },
+    {
+      termino: 'Alta velocidad <em>(HIGH)</em>',
+      significado:
+        'modo en la caja de transferencia que permite que la fuerza se transmita sin reducción, manteniendo la relación 1:1.',
+    },
+    {
+      termino: 'Baja velocidad <em>(LOW)</em>',
+      significado:
+        'modo en la caja de transferencia que reduce la velocidad de salida y aumenta la fuerza de tracción en terrenos difíciles.',
+    },
+    {
+      termino: 'Caja de transferencia',
+      significado:
+        'componente del vehículo que distribuye la fuerza del motor a los ejes delantero y trasero en vehículos con tracción en las cuatro ruedas.',
+    },
+    {
+      termino: 'Diferencial',
+      significado:
+        'mecanismo que permite que las ruedas de un mismo eje giren a diferentes velocidades, mejorando la estabilidad en curvas.',
+    },
+    {
+      termino: 'Eje cardán',
+      significado:
+        'barra de transmisión que transporta la fuerza desde la caja de cambios o la caja de transferencia hasta el diferencial.',
+    },
+    {
+      termino: 'Motor longitudinal',
+      significado:
+        'configuración del motor en la que el cigüeñal está alineado con el eje del vehículo, facilitando la tracción trasera o total.',
+    },
+    {
+      termino: 'Motor transversal',
+      significado:
+        'disposición del motor en la que el cigüeñal está colocado perpendicularmente al eje del vehículo, común en vehículos de tracción delantera.',
+    },
+    {
+      termino: 'Selector de tracción',
+      significado:
+        'mecanismo que permite elegir entre tracción en dos ruedas o en las cuatro ruedas, ya sea de forma manual o electrónica.',
+    },
+    {
+      termino: 'Sensor de posición',
+      significado:
+        'dispositivo que informa al computador del vehículo la ubicación exacta de los engranajes dentro de la caja de transferencia.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Meganeboy, D. (s.f.). Cajas de cambio. Aficionados a la Mecánica.',
+      link: '',
+    },
+    {
+      referencia:
+        'Santana, C. (2012, noviembre 16). Caja de transferencia. Jeep IKA. ',
       link: '',
     },
   ],
@@ -125,14 +205,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Líder del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Olga Constanza Bermudez Jaimes',
+          cargo: 'Responsable de Línea de Producción Huila',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -140,9 +220,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Carlos Edwin Abello Rubiano',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de la Tecnología del Diseño y la Productividad Empresarial - Regional Cundinamarca',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora Instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -150,34 +237,63 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Carlos Julián Ramírez Benítez',
+          cargo: 'Diseñador de Contenidos Digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Robinson Javier Ordoñez Barreiro',
+          cargo: 'Desarrollador Fullstack',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete Lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete Lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Andrés Felipe Guevara Ariza',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
     {
-      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      titulo: 'GESTORES DE REPOSITORIO',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Raúl Mosquera Serrano',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
