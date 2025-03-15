@@ -295,6 +295,12 @@ export default {
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
       ],
     },
   ],

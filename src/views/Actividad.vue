@@ -175,7 +175,7 @@ export default {
             {
               id: 'd',
               texto:
-                'A través de un mando eléctrico y un computador de control',
+                'A través de un mando eléctrico y un computador de control.',
               esCorrecta: true,
             },
           ],
