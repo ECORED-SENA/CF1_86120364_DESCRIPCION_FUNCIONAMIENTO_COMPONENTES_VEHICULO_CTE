@@ -84,19 +84,11 @@
       .row.mb-5
         .col-lg-6.caja-text-img-tema1-bloque3
           h5 Cuando el motor y la caja de cambios están instalados transversalmente:
-          .row.ajuste-i
-            .col-1
-              <i class="fas fa-wrench"></i>
-            .col-11
-              p La caja de cambios transmite la fuerza al diferencial delantero, que impulsa las ruedas delanteras.
-            .col-1
-              <i class="fas fa-wrench"></i>
-            .col-11
-              p Si el vehículo tiene tracción en las cuatro ruedas, la caja de transferencia está integrada en el diferencial delantero o acoplada a él.
-            .col-1
-              <i class="fas fa-wrench"></i>
-            .col-11
-              p La propulsión hacia las ruedas traseras se logra mediante un eje cardán, conectado al diferencial trasero.
+          <ul class="fa-ul">
+            <li class="mb-4"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>La caja de cambios transmite la fuerza al diferencial delantero, que impulsa las ruedas delanteras.</li>
+            <li class="mb-4"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Si el vehículo tiene tracción en las cuatro ruedas, la caja de transferencia está integrada en el diferencial delantero o acoplada a él.</li>
+            <li><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>La propulsión hacia las ruedas traseras se logra mediante un eje cardán, conectado al diferencial trasero.</li>
+          </ul>
         .col-lg-6
           .figura
             .titulo-sexto.color-acento-contenido.mb-3
@@ -142,25 +134,16 @@
     .row.mb-5
       .col-lg-6.caja-text-img-tema1-bloque3
         h5 El funcionamiento de la caja de transferencia es:
-        .row.ajuste-i
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11
-            p Los <strong>ejes de propulsión</strong> reciben la fuerza de la caja de transferencia y la transmiten:
-              li.li-tema1-bloque4 Al cono del diferencial delantero.
-              li.li-tema1-bloque4 Al cono del diferencial posterior.
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11
-            p Cada diferencial distribuye la fuerza a las ruedas mediante los <strong>semiejes de propulsión</strong>.
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11
-            p En el <strong>sistema posterior</strong>, si el eje es rígido, los semiejes no requieren articulaciones.
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11
-            p En el <strong>sistema delantero</strong>, los ejes deben ser articulados para permitir el giro de las ruedas con el sistema de dirección.
+        <ul class="fa-ul">
+          <li class="mb-3"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Los <strong>ejes de propulsión</strong> reciben la fuerza de la caja de transferencia y la transmiten:</li>
+          <ul>
+            <li class="li-tema1-bloque4">Al cono del diferencial delantero.</li>
+            <li class="li-tema1-bloque4 mb-4">Al cono del diferencial posterior.</li>
+          </ul>
+          <li class="mb-3"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Cada diferencial distribuye la fuerza a las ruedas mediante los <strong>semiejes de propulsión</strong>.</li>
+          <li class="mb-3"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>En el <strong>sistema posterior</strong>, si el eje es rígido, los semiejes no requieren articulaciones.</li>
+          <li><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>En el <strong>sistema delantero</strong>, los ejes deben ser articulados para permitir el giro de las ruedas con el sistema de dirección.</li>
+        </ul>
       .col-lg-6
         .figura
           .titulo-sexto.color-acento-contenido.mb-3
@@ -191,20 +174,14 @@
 
       p.mb-5 La caja de transferencia en vehículos con motor y caja de cambios dispuestos longitudinalmente recibe el movimiento del eje de salida de la caja de cambios a través de un piñón de mando estriado. Su función principal es permitir la selección entre dos modos de tracción:
 
-      .row.mb-5
-        .col-lg-6.caja-text-img-tema1-bloque3
-          h5 Trancción en las ruedas posteriores
-          .row.ajuste-i
-            .col-1
-              <i class="fas fa-wrench"></i>
-            .col-11.mb-3
-              p Utilizada en condiciones normales de carretera, como autopistas o calles de ciudad.
-          h5 Tracción en las cuatro ruedas
-          .row.ajuste-i 
-            .col-1
-              <i class="fas fa-wrench"></i>
-            .col-11
-              p Activada en terrenos resbaladizos o con poco agarre, mejorando la adherencia del vehículo.
+      .row.mb-5.align-items-center
+        .col-lg-6.ajuste-caja__3
+          <ul class="fa-ul">
+            h5 Trancción en las ruedas posteriores
+            <li class="mb-5"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Utilizada en condiciones normales de carretera, como autopistas o calles de ciudad.</li>
+            h5 Tracción en las cuatro ruedas
+            <li><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Activada en terrenos resbaladizos o con poco agarre, mejorando la adherencia del vehículo.</li>
+          </ul>
         .col-lg-6
           .figura
             .titulo-sexto.color-acento-contenido.mb-3
@@ -234,20 +211,14 @@
 
     p.mb-5 Cada fabricante adapta la caja de transferencia al diseño de su caja de cambios y al sistema mecánico del vehículo. Sin embargo, todas las cajas de transferencia funcionan de manera similar. Evolución del mecanismo de selección de tracción:
 
-    .row.mb-5
-      .col-lg-6.caja-text-img-tema1-bloque3.caja-ajuste-tema1-bloque6
-        h5 Modelos antiguos
-        .row.ajuste-i.ajuste-i-bloque6
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11
-            p Selector manual para elegir entre tracción en dos o cuatro ruedas.
-        h5 Modelos modernos
-        .row.ajuste-i 
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11
-            p Sistema eléctrico controlado por el conductor mediante una perilla.
+    .row.mb-5.h-100.align-items-center
+      .col-lg-6.ajuste-caja__1
+        <ul class="fa-ul">
+          h5 Modelos antiguos
+          <li class="mb-5"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Selector manual para elegir entre tracción en dos o cuatro ruedas.</li>
+          h5 Modelos modernos
+          <li><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Sistema eléctrico controlado por el conductor mediante una perilla.</li>
+        </ul>
       .col-lg-6
         .figura
           .titulo-sexto.color-acento-contenido.mb-3
@@ -277,17 +248,12 @@
 
     p.mb-5 Las cajas de transferencia ofrecen dos modos de velocidad para adaptarse a diferentes condiciones de manejo:
 
-    .row.mb-5
-      .col-lg-6.caja-text-img-tema1-bloque3.caja-ajuste-tema1-bloque7
-        .row.ajuste-i
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11.mb-5
-            <strong>Alta velocidad (<em>HIGH</em>)</strong>: la fuerza proveniente de la caja de cambios se transmite directamente, sin reducción de velocidad.
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11
-           p <strong>Baja velocidad (<em>LOW</em>)</strong>: se engranan piñones adicionales que reducen la velocidad de salida, aumentando la fuerza motriz.
+    .row.mb-5.h-100.align-items-center
+      .col-lg-6.ajuste-caja__2.align-items-center
+        <ul class="fa-ul">
+          <li class="mb-5"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span><strong>Alta velocidad (<em>HIGH</em>)</strong>: la fuerza proveniente de la caja de cambios se transmite directamente, sin reducción de velocidad.</li>
+          <li><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span><strong>Baja velocidad (<em>LOW</em>)</strong>: se engranan piñones adicionales que reducen la velocidad de salida, aumentando la fuerza motriz.</li>
+        </ul>
       .col-lg-6
         .figura
           .titulo-sexto.color-acento-contenido.mb-3

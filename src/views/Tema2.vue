@@ -18,32 +18,20 @@
         .col-lg-12
           figure(data-aos="fade-right")
             img(src='@/assets/curso/tema2/img1.png', alt='Esquema de embrague multidisco con control de torque.')
-      .col-lg-6.caja-text-img-tema2-bloque1
-        .row.ajuste-i
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11
-            p Cuando las ruedas delanteras pierden agarre, el computador de control del sistema activa un <strong>embrague electromagnético</strong>.
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11
-            p Este embrague atrae una <strong>campana magnética</strong>, que a su vez comprime un <strong>embrague multidisco</strong>.
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11
-            p La activación del sistema depende de varios factores:
-              li.li-tema1-bloque4 <strong>Aceleración</strong>
-              li.li-tema1-bloque4 <strong>Diferentes velocidades de las ruedas</strong>
-              li.li-tema1-bloque4 <strong>Marcha seleccionada</strong>
-              li.li-tema1-bloque4 <strong>Otros parámetros del vehículo</strong>
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11
-            p El computador envía corriente al embrague electromagnético para transferir tracción al eje propulsor posterior.
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11
-            p Puede incluir un <strong>mecanismo de control de torque</strong>, con dos pistas ranuradas que ajustan la tracción según la diferencia de giro entre el eje de la transferencia y el eje de salida.
+      .col-lg-6.caja-text-img-tema2-bloque1.h-100.align-items-center
+        <ul class="fa-ul">
+          <li class="mb-3"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Cuando las ruedas delanteras pierden agarre, el computador de control del sistema activa un <strong>embrague electromagnético</strong>.</li>
+          <li class="mb-3"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Este embrague atrae una <strong>campana magnética</strong>, que a su vez comprime un <strong>embrague multidisco</strong>.</li>
+          <li class="mb-3"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>La activación del sistema depende de varios factores:</li>
+          <ul>
+            <li class="li-tema1-bloque4"><strong>Aceleración</strong></li>
+            <li class="li-tema1-bloque4"><strong>Diferentes velocidades de las ruedas</strong></li>
+            <li class="li-tema1-bloque4"><strong>Marcha seleccionada</strong></li>
+            <li class="li-tema1-bloque4 mb-3"><strong>Otros parámetros del vehículo</strong></li>
+          </ul>
+          <li class="mb-3"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>El computador envía corriente al embrague electromagnético para transferir tracción al eje propulsor posterior.</li>
+          <li><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Puede incluir un <strong>mecanismo de control de torque</strong>, con dos pistas ranuradas que ajustan la tracción según la diferencia de giro entre el eje de la transferencia y el eje de salida.</li>
+        </ul>
 
     <!-- BLOQUE 2 -->
     .row.mb-4
@@ -120,15 +108,10 @@
     .row.mb-5.h-100.align-items-center
       .col-lg-6.caja-text-img-tema2-bloque4
         p.mb-5 El motor eléctrico desplaza las horquillas de selección para cambiar entre:
-        .row.ajuste-i-bloque4
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11
-            p.mb-4 <strong>Marcha normal sencilla </strong>(relación 1:1, tracción en un solo eje).
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11
-            p.mb-4 <strong>Doble transmisión</strong> (tracción en los dos ejes, en alta o baja velocidad).
+        <ul class="fa-ul">
+          <li class="mb-5"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span><strong>Marcha normal sencilla </strong>(relación 1:1, tracción en un solo eje).</li>
+          <li><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span><strong>Doble transmisión</strong> (tracción en los dos ejes, en alta o baja velocidad).</li>
+        </ul>
       .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 13.
@@ -182,25 +165,19 @@
     p.mb-4 Para un control preciso, el motor eléctrico debe coincidir con las horquillas de selección: 
 
     .row.mb-5.h-100.align-items-center
-      .col-lg-6.caja-text-img-tema2-bloque5
+      .col-lg-6.ajuste-caja-tema2__1
         p Señales en la carcasa del transfer.
-        .row.ajuste-i-bloque4
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11
-            p.mb-4 Indican la posición de referencia para la instalación del motor.
+        <ul class="fa-ul">
+          <li class="mb-4"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Indican la posición de referencia para la instalación del motor.</li>
+        </ul>
         p Señales en el eje del piñón.
-        .row.ajuste-i-bloque4
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11
-            p.mb-4 Deben alinearse con las horquillas internas.
+        <ul class="fa-ul">
+          <li class="mb-4"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Deben alinearse con las horquillas internas..</li>
+        </ul>
         p Verificación de conexiones.
-        .row.ajuste-i-bloque4
-          .col-1
-            <i class="fas fa-wrench"></i>
-          .col-11
-            p Un error en los cables puede dañar el computador, el motor o el sensor.
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Un error en los cables puede dañar el computador, el motor o el sensor.</li>
+        </ul>
       .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 14.
