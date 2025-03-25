@@ -30,13 +30,16 @@
   
 .banner-principal .tarjeta
   background-position: left 50% !important
+  @media screen and (max-width: 1024px)
+    background-image: url("../assets/curso/portada/fondo-banner-principal1.png") !important
+  @media screen and (max-width: 390px)
+    background-image: url("../assets/curso/portada/fondo-banner-principal2.png") !important
 
 .banner-principal__row .banner-principal__img
-  width: 275px !important
-  
+  width: 300px !important
+
 .banner-principal__img
   top: 3rem
-  right: 4.5rem
 
 .banner-principal__descripcion
   max-width: 90%
@@ -49,7 +52,6 @@
   @media screen and (max-width: 1024px)
     margin-left: 1.3rem
 
-
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
 
@@ -61,6 +63,8 @@ figcaption
 
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/img1.png") !important
+
+
  
 
 ///FONDO DE TEXTO  
@@ -110,44 +114,37 @@ figcaption
 
 /// CAJA TEXTO ICON DE TITULOS TERCER NIVEL
 .caja.titulos-terciarios
-  position: relative
+  background-color: $color-secundario
+  border-radius: 48px
   display: inline-flex
-  align-items: flex-end
-  padding-right: 1rem
-  padding-left: 0.5rem
+  align-items: center
+  padding: 1rem
+  height: 40px
+  @media screen and (max-width: 767px)
+    padding: 0.5rem 1rem 0.5rem 1.5rem !important
+    width: auto
+    height: auto
   @media screen and (max-width: 1024px)
-    padding-left: 1.4rem
-  &::before
-    content: ""
-    position: absolute
-    background-color: $color-secundario
-    border-radius: 48px
-    top: 50%
-    bottom: 0%
-    left: 0%
-    right: 0%
-    z-index: 0
-    @media screen and (max-width: 390px)
-      top: 22%
+    padding: 1.5rem
+    margin-top: 2rem !important
+
   h3
-    position: relative
-    margin: 0rem 0rem 0rem 0rem
-    padding: 0.3rem 0.3rem 0.3rem 0.6rem 
+    padding-left: 0.5rem
+    align-items: center
+    white-space: normal
+    word-break: break-word
+    margin-bottom: 0px
   img
-    max-width: 100% !important
     position: relative
-    bottom: -11px
-    left: -5px
+    bottom: 7px
     @media screen and (max-width: 1024px)
-      bottom: -10px
-.ajuste-tablet-movil
-  @media screen and (max-width: 390px)
-    padding-top: 1.5rem
-.ajuste-tablet-movil-1
-  @media screen and (max-width: 1024px)
-    padding-top: 4rem
-  @media screen and (max-width: 390px)
-    padding-top: 1.5rem
+      bottom: 4px
+    @media screen and (max-width: 767px)
+      bottom: 0px
+
+
+
+
 
 
 ///FIGURAS

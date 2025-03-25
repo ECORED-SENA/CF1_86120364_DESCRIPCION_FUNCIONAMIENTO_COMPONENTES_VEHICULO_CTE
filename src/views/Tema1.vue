@@ -78,7 +78,7 @@
             .col-lg-auto
               figure(data-aos="fade-right")
                 img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
-            .col.ajuste-tablet-movil
+            .col
               h3 Caja de transferencia para motor transversal
 
       .row.mb-5
@@ -165,11 +165,11 @@
     .row.fondo-text.mb-5
       .row.mb-4
         .col-lg-auto
-          .caja.titulos-terciarios     
+          .caja.titulos-terciarios.ajuste-caja-color
             .col-lg-auto
               figure(data-aos="fade-right")
                 img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
-            .col.ajuste-tablet-movil
+            .col
               h3 Trabajo de una caja de transferencia longitudinal
 
       p.mb-5 La caja de transferencia en vehículos con motor y caja de cambios dispuestos longitudinalmente recibe el movimiento del eje de salida de la caja de cambios a través de un piñón de mando estriado. Su función principal es permitir la selección entre dos modos de tracción:
@@ -206,7 +206,7 @@
           .col-lg-auto
             figure(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
-          .col.ajuste-tablet-movil
+          .col
             h3 Partes de una caja de transferencia longitudinal
 
     p.mb-5 Cada fabricante adapta la caja de transferencia al diseño de su caja de cambios y al sistema mecánico del vehículo. Sin embargo, todas las cajas de transferencia funcionan de manera similar. Evolución del mecanismo de selección de tracción:
@@ -243,7 +243,7 @@
           .col-lg-auto
             figure(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
-          .col.ajuste-tablet-movil
+          .col
             h3 Partes de una caja de transferencia longitudinal
 
     p.mb-5 Las cajas de transferencia ofrecen dos modos de velocidad para adaptarse a diferentes condiciones de manejo:
@@ -320,7 +320,7 @@
             .col-lg-auto
               figure(data-aos="fade-right")
                 img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
-            .col.ajuste-tablet-movil-1
+            .col
               h3 Elementos clave de una caja de transferencia longitudinal moderna
 
     p.mb-5 En los vehículos todoterreno con caja de transferencia moderna, se incluyen los siguientes componentes esenciales:

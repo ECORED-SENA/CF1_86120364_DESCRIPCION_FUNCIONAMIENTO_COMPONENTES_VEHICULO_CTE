@@ -10,7 +10,7 @@
     <!-- BLOQUE 1 -->
     p.mb-4 En vehículos con tracción principal en el eje delantero y caja de transferencia electrónica, la tracción se envía al eje posterior solo cuando es necesario. El funcionamiento del sistema es:
 
-    .row.mb-4.h-100.align-items-center
+    .row.mb-5.h-100.align-items-center
       .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 11.
@@ -40,7 +40,7 @@
           .col-lg-auto
             figure(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
-          .col.ajuste-tablet-movil
+          .col
             h3 Caja de transferencia con mando eléctrico
 
     p.mb-5 Este tipo de caja de transferencia, controlada electrónicamente, permite la selección de alta velocidad, baja velocidad y distribución de tracción mediante una <strong>perilla selectora</strong>. El proceso de funcionamiento es: 
@@ -52,7 +52,7 @@
           h5 Figura 12.
           span Esquema interno de una caja de transferencia con sistema planetario y embrague electromagnético
       .col-lg-2
-    .row.mb-4 
+    .row.mb-5
       .col-lg-2
       .col-lg-8
         figure(data-aos="fade-up")
@@ -65,7 +65,7 @@
           .col-lg-auto
             figure(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
-          .col.ajuste-tablet-movil
+          .col
             h3 Motor del selector eléctrico del transfer
 
     p.mb-4 Este motor es el encargado de seleccionar la tracción en el eje delantero, en un solo eje o en ambos ejes, así como la velocidad alta y baja.
@@ -87,7 +87,7 @@
               .col-12
               p.mb-0 Con los datos de los sensores, el computador selecciona la posición adecuada para la caja de transferencia.
 
-    .row.d-flex.justify-content-center.mb-4
+    .row.d-flex.justify-content-center.mb-5
       .caja-text-img-nota-1
         .col-lg-auto.align-self-center
           figure(data-aos="fade-right").d-none.d-lg-block
@@ -102,7 +102,7 @@
           .col-lg-auto
             figure(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
-          .col.ajuste-tablet-movil
+          .col
             h3 Motor del selector eléctrico y sensor de posición
     
     .row.mb-5.h-100.align-items-center
@@ -122,7 +122,7 @@
 
     h4.mb-5 El funcionamiento del sensor de posición: 
       
-    .row.mb-4.h-100.align-items-center
+    .row.mb-5.h-100.align-items-center
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .caja-text-img-tema2-bloque4-1.ajuste-bloque4
           .row.justify-content-center.mb-4
@@ -159,7 +159,7 @@
           .col-lg-auto
             figure(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
-          .col.ajuste-tablet-movil
+          .col
             h3 Posición básica del motor eléctrico en el transfer
 
     p.mb-4 Para un control preciso, el motor eléctrico debe coincidir con las horquillas de selección: 
@@ -193,7 +193,7 @@
           .col-lg-auto
             figure(data-aos="fade-right")
               img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
-          .col.ajuste-tablet-movil
+          .col
             h3 Selección de las posiciones de engrane en el transfer
 
     p.mb-5 La caja de transferencia tiene una estructura similar a la de una <strong>caja de cambios sincronizada</strong>, incluyendo <strong>collarines y sincronizadores</strong>. Esto permite cambios de posición suaves y protege los componentes internos del sistema.
@@ -212,14 +212,6 @@
 
     
     p Con esta estructura, la información queda clara y mejor organizada, facilitando la comprensión del funcionamiento del sistema de transferencia de tracción en el vehículo.
-
-
-
-
-
-
-
-      
 
 </template>
 
