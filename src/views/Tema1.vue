@@ -177,7 +177,7 @@
       .row.mb-5.align-items-center
         .col-lg-6.ajuste-caja__3
           <ul class="fa-ul">
-            h5 Trancción en las ruedas posteriores
+            h5 Tracción en las ruedas posteriores
             <li class="mb-5"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Utilizada en condiciones normales de carretera, como autopistas o calles de ciudad.</li>
             h5 Tracción en las cuatro ruedas
             <li><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Activada en terrenos resbaladizos o con poco agarre, mejorando la adherencia del vehículo.</li>
@@ -226,7 +226,7 @@
             span Esquema del flujo de fuerza en el sistema de transmisión con caja de transferencia
           .col-lg-12
             figure(data-aos="fade-left")
-              img(src='@/assets/curso/tema1/img10.png', alt='Diagrama de un sistema de transmisión que presenta el flujo de fuerza desde el motor hacia la caja de cambios y su distribución a los propulsores delantero y posterior a través de la transfer.')   
+              img(src='@/assets/curso/tema1/img10.png', alt='Esquema de transmisión con caja de cambios, transfer y flujo de fuerza.')   
 
     .row.d-flex.justify-content-center.mb-5
       .caja-text-img-nota-1

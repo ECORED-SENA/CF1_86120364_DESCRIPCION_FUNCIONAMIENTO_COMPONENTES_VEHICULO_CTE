@@ -118,7 +118,7 @@
           span Motor eléctrico con engranaje de reducción para caja de transferencia
         .col-lg-12
           figure(data-aos="fade-left")
-            img(src='@/assets/curso/tema2/img3.png', alt='Esquema interno de una caja de transferencia con sistema planetario y embrague electromagnético.')
+            img(src='@/assets/curso/tema2/img3.png', alt='Diagrama de un motor eléctrico con engranaje de reducción diseñado para operar en una caja de transferencia.')
 
     h4.mb-5 El funcionamiento del sensor de posición: 
       
@@ -172,7 +172,7 @@
         </ul>
         p Señales en el eje del piñón.
         <ul class="fa-ul">
-          <li class="mb-4"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Deben alinearse con las horquillas internas..</li>
+          <li class="mb-4"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Deben alinearse con las horquillas internas.</li>
         </ul>
         p Verificación de conexiones.
         <ul class="fa-ul">

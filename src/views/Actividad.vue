@@ -22,6 +22,8 @@ export default {
       introduccion:
         '<b> Objetivo: Identificar  la función, tipos, modos de operación y sistemas modernos de la caja de transferencia en vehículos con tracción en las cuatro ruedas.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: '¡VUELVA A INTENTARLO!',
       preguntas: [
         {
           id: 1,
