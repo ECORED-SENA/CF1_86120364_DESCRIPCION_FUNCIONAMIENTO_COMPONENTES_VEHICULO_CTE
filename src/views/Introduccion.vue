@@ -24,7 +24,7 @@
     .row.caja-text-img-nota
       .col-lg-auto.align-self-center
         figure(data-aos="fade-right").d-none.d-lg-block
-          img(src="@/assets/curso/intro/img2.png" style="width: 80px").m-auto
+          img(src="@/assets/curso/intro/img2.svg" style="width: 80px").m-auto
       .col-lg
         p.mb-0 Actualmente, las cajas de transferencia modernas integran sensores y controles electrónicos que garantizan un engranaje preciso y eficiente. Gracias a estos avances, los vehículos pueden cambiar entre tracción en dos o cuatro ruedas sin interrupciones, proporcionando una mejor experiencia de manejo y mayor eficiencia en el consumo de energía. 
 

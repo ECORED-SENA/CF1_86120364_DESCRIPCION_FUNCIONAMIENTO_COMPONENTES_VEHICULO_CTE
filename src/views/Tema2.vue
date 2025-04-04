@@ -17,7 +17,7 @@
           span Embrague multidisco con control de torque 
         .col-lg-12
           figure(data-aos="fade-right")
-            img(src='@/assets/curso/tema2/img1.png', alt='Esquema de embrague multidisco con control de torque.')
+            img(src='@/assets/curso/tema2/img1.svg', alt='Esquema de embrague multidisco con control de torque.')
       .col-lg-6.caja-text-img-tema2-bloque1.h-100.align-items-center
         <ul class="fa-ul">
           <li class="mb-3"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Cuando las ruedas delanteras pierden agarre, el computador de control del sistema activa un <strong>embrague electromagnético</strong>.</li>
@@ -36,9 +36,9 @@
     <!-- BLOQUE 2 -->
     .row.mb-4
       .col-lg-auto
-        .caja.titulos-terciarios
+        .caja.titulos-terciarios(data-aos="fade-right")
           .col-lg-auto
-            figure(data-aos="fade-right")
+            figure
               img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
           .col
             h3 Caja de transferencia con mando eléctrico
@@ -56,14 +56,14 @@
       .col-lg-2
       .col-lg-8
         figure(data-aos="fade-up")
-          img(src='@/assets/curso/tema2/img2.png', alt='Esquema interno de una caja de transferencia con sistema planetario y embrague electromagnético.')
+          img(src='@/assets/curso/tema2/img2.svg', alt='Esquema interno de una caja de transferencia con sistema planetario y embrague electromagnético.')
 
     <!-- BLOQUE 3 -->
     .row.mb-4
       .col-lg-auto
-        .caja.titulos-terciarios
+        .caja.titulos-terciarios(data-aos="fade-right")
           .col-lg-auto
-            figure(data-aos="fade-right")
+            figure
               img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
           .col
             h3 Motor del selector eléctrico del transfer
@@ -91,16 +91,16 @@
       .caja-text-img-nota-1
         .col-lg-auto.align-self-center
           figure(data-aos="fade-right").d-none.d-lg-block
-            img(src="@/assets/curso/intro/img2.png" style="width: 80px").m-auto
+            img(src="@/assets/curso/intro/img2.svg" style="width: 80px").m-auto
         .col-lg
           p.ajuste-p-bloque4 Cuando el piñón gira, la información de posición es enviada al computador, que a su vez enciende una <strong>lámpara en el tablero de instrumentos</strong>, indicando la selección realizada.
         
     <!-- BLOQUE 4 -->
     .row.mb-4
       .col-lg-auto
-        .caja.titulos-terciarios
+        .caja.titulos-terciarios(data-aos="fade-right")
           .col-lg-auto
-            figure(data-aos="fade-right")
+            figure
               img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
           .col
             h3 Motor del selector eléctrico y sensor de posición
@@ -118,7 +118,7 @@
           span Motor eléctrico con engranaje de reducción para caja de transferencia
         .col-lg-12
           figure(data-aos="fade-left")
-            img(src='@/assets/curso/tema2/img3.png', alt='Diagrama de un motor eléctrico con engranaje de reducción diseñado para operar en una caja de transferencia.')
+            img(src='@/assets/curso/tema2/img3.svg', alt='Diagrama de un motor eléctrico con engranaje de reducción diseñado para operar en una caja de transferencia.')
 
     h4.mb-5 El funcionamiento del sensor de posición: 
       
@@ -155,9 +155,9 @@
     <!-- BLOQUE 5 -->
     .row.mb-4
       .col-lg-auto
-        .caja.titulos-terciarios
+        .caja.titulos-terciarios(data-aos="fade-right")
           .col-lg-auto
-            figure(data-aos="fade-right")
+            figure
               img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
           .col
             h3 Posición básica del motor eléctrico en el transfer
@@ -184,14 +184,14 @@
           span Instalación del motor eléctrico en la caja de transferencia
         .col-lg-12
           figure(data-aos="fade-left")
-            img(src='@/assets/curso/tema2/img8.png', alt='Diagrama del proceso de instalación de un motor eléctrico en la caja de transferencia.')
+            img(src='@/assets/curso/tema2/img8.svg', alt='Diagrama del proceso de instalación de un motor eléctrico en la caja de transferencia.')
 
     <!-- BLOQUE 6 -->
     .row.mb-4
       .col-lg-auto
-        .caja.titulos-terciarios
+        .caja.titulos-terciarios(data-aos="fade-right")
           .col-lg-auto
-            figure(data-aos="fade-right")
+            figure
               img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
           .col
             h3 Selección de las posiciones de engrane en el transfer
@@ -208,7 +208,7 @@
       .col-lg-2
       .col-lg-8
         figure(data-aos="fade-up")
-          img(src='@/assets/curso/tema2/img9.png', alt='Representación esquemática de distintas configuraciones del flujo de potencia dentro de una caja de transferencia.')
+          img(src='@/assets/curso/tema2/img9.svg', alt='Representación esquemática de distintas configuraciones del flujo de potencia dentro de una caja de transferencia.')
 
     
     p Con esta estructura, la información queda clara y mejor organizada, facilitando la comprensión del funcionamiento del sistema de transferencia de tracción en el vehículo.

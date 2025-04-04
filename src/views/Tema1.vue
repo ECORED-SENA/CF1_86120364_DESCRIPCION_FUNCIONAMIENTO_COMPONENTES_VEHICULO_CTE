@@ -19,7 +19,7 @@
             span Esquema de un vehículo con tracción delantera
           .col-lg
             figure(data-aos="flip-left")
-              img(src='@/assets/curso/tema1/img1.png', alt='Diagrama esquemático de un sistema de tracción en un vehículo, donde se representa un eje sin conexión y otro con un motor y un sistema de transmisión, presentando  la distribución de la fuerza motriz.')
+              img(src='@/assets/curso/tema1/img-1.svg', alt='Diagrama esquemático de un sistema de tracción en un vehículo, donde se representa un eje sin conexión y otro con un motor y un sistema de transmisión, presentando  la distribución de la fuerza motriz.')
           .col-lg.text-tema1-bloque1
             p.mb-0 <strong>Tracción delantera:</strong> en configuraciones transversales, la fuerza se dirige a las ruedas delanteras. 
         .col-lg-5
@@ -28,7 +28,7 @@
             span Esquema de un vehículo con tracción posterior
           .col-lg
             figure(data-aos="flip-left")
-              img(src='@/assets/curso/tema1/img2.png', alt='Diagrama esquemático de un sistema de tracción en un vehículo con motor delantero y transmisión a las ruedas traseras.')
+              img(src='@/assets/curso/tema1/img-2.svg', alt='Diagrama esquemático de un sistema de tracción en un vehículo con motor delantero y transmisión a las ruedas traseras.')
           .col-lg.text-tema1-bloque1-2
             p.mb-0 <strong>Tracción posterior:</strong> cuando el motor y la caja de cambios están dispuestos longitudinalmente, la fuerza se transmite a las ruedas traseras.
  
@@ -37,9 +37,9 @@
     <!-- BLOQUE 2 -->
     .row.mb-4
       .col-lg-auto
-        .caja.titulos-terciarios     
+        .caja.titulos-terciarios(data-aos="fade-right")   
           .col-lg-auto
-            figure(data-aos="fade-right")
+            figure
               img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
           .col
             h3 Función de la caja de transferencia
@@ -54,7 +54,7 @@
             p La caja de transferencia recibe la fuerza de la caja de cambios y la distribuye al diferencial trasero y, a través de engranajes o cadenas, al diferencial delantero.
           .col-lg-6
             figure(data-aos="zoom-out")
-              img(src='@/assets/curso/tema1/img3.png', alt='Diagrama del sistema de transmisión de un vehículo 4x4, presentando la caja de cambios, caja de transferencia y los diferenciales delantero y posterior.')
+              img(src='@/assets/curso/tema1/img3.svg', alt='Diagrama del sistema de transmisión de un vehículo 4x4, presentando la caja de cambios, caja de transferencia y los diferenciales delantero y posterior.')
       .py-4.py-lg-5(titulo="Motor transversal" :icono="require('@/assets/curso/tema1/img2.svg')")
         .row
           .col-lg-6.mb-4.mb-md-0
@@ -62,7 +62,7 @@
             p La fuerza se transmite directamente al diferencial delantero. A través de un juego de piñones, la caja de transferencia envía la propulsión hacia el diferencial trasero.
           .col-lg-6
             figure(data-aos="zoom-out")
-              img(src='@/assets/curso/tema1/img4.png', alt='Diagrama del sistema de transmisión de un vehículo con caja de cambios, caja de transferencia y diferenciales delantero y posterior.')
+              img(src='@/assets/curso/tema1/img4.svg', alt='Diagrama del sistema de transmisión de un vehículo con caja de cambios, caja de transferencia y diferenciales delantero y posterior.')
 
     Separador
     <!-- BLOQUE 3 -->
@@ -74,9 +74,9 @@
 
       .row.mb-4
         .col-lg-auto
-          .caja.titulos-terciarios
+          .caja.titulos-terciarios(data-aos="fade-right")
             .col-lg-auto
-              figure(data-aos="fade-right")
+              figure
                 img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
             .col
               h3 Caja de transferencia para motor transversal
@@ -96,13 +96,13 @@
               span Caja de transferencia diferencial delantera 
             .col-lg-12
               figure(data-aos="fade-left")
-                img(src='@/assets/curso/tema1/img5.png', alt='Diagrama en corte de una caja de transferencia con diferencial delantero.')
+                img(src='@/assets/curso/tema1/img5.svg', alt='Diagrama en corte de una caja de transferencia con diferencial delantero.')
 
       .row.d-flex.justify-content-center
         .caja-text-img-nota-1
           .col-lg-auto.align-self-center
             figure(data-aos="fade-right").d-none.d-lg-block
-              img(src="@/assets/curso/intro/img2.png" style="width: 80px").m-auto
+              img(src="@/assets/curso/intro/img2.svg" style="width: 80px").m-auto
           .col-lg
             p.mb-0 Este sistema es más compacto, ya que solo requiere un cambio de dirección en la transmisión de la fuerza desde el eje de salida de la caja hasta la orientación longitudinal del vehículo. 
 
@@ -129,7 +129,7 @@
         .col-lg-3
         .col-lg-6
           figure(data-aos="fade-up")
-            img(src='@/assets/curso/tema1/img7.png', alt='Esquema de transmisión con caja de cambios automática y caja de transferencia.')
+            img(src='@/assets/curso/tema1/img7.svg', alt='Esquema de transmisión con caja de cambios automática y caja de transferencia.')
       
     .row.mb-5
       .col-lg-6.caja-text-img-tema1-bloque3
@@ -151,13 +151,13 @@
             span Esquema del sistema de transmisión con caja de transferencia y diferenciales
           .col-lg-12
             figure(data-aos="fade-left")
-              img(src='@/assets/curso/tema1/img8.png', alt='Esquema de un sistema de transmisión con caja de cambios, diferenciales y semiejes.')
+              img(src='@/assets/curso/tema1/img8.svg', alt='Esquema de un sistema de transmisión con caja de cambios, diferenciales y semiejes.')
 
     .row.d-flex.justify-content-center.mb-5
       .caja-text-img-nota-1
         .col-lg-auto.align-self-center
           figure(data-aos="fade-right").d-none.d-lg-block
-            img(src="@/assets/curso/intro/img2.png" style="width: 80px").m-auto
+            img(src="@/assets/curso/intro/img2.svg" style="width: 80px").m-auto
         .col-lg
           p.ajuste-p-bloque4 En la figura se presenta la disposición de la caja de transferencia, los ejes de propulsión o <strong>cardanes</strong>, y los diferenciales delantero y posterior, mostrando cómo se distribuye la fuerza hacia las ruedas del vehículo. 
     
@@ -165,9 +165,9 @@
     .row.fondo-text.mb-5
       .row.mb-4
         .col-lg-auto
-          .caja.titulos-terciarios.ajuste-caja-color
+          .caja.titulos-terciarios.ajuste-caja-color(data-aos="fade-right")
             .col-lg-auto
-              figure(data-aos="fade-right")
+              figure
                 img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
             .col
               h3 Trabajo de una caja de transferencia longitudinal
@@ -189,22 +189,22 @@
               span Diagrama de una caja de transferencia y sus conexiones
             .col-lg-12
               figure(data-aos="fade-left")
-                img(src='@/assets/curso/tema1/img9.png', alt='Diagrama de una caja de transferencia con sus conexiones.') 
+                img(src='@/assets/curso/tema1/img9.svg', alt='Diagrama de una caja de transferencia con sus conexiones.') 
 
       .row.d-flex.justify-content-center
         .caja-text-img-nota-1
           .col-lg-auto.align-self-center
             figure(data-aos="fade-right").d-none.d-lg-block
-              img(src="@/assets/curso/intro/img2.png" style="width: 80px").m-auto
+              img(src="@/assets/curso/intro/img2.svg" style="width: 80px").m-auto
           .col-lg
             p.ajuste-p-bloque4 Para alternar entre estas opciones, el conductor utiliza una <strong>palanca selectora</strong> o un <strong>sistema de mando eléctrico</strong>, dependiendo del diseño del vehículo.
     
     <!-- BLOQUE 6 -->
     .row.mb-4
       .col-lg-auto
-        .caja.titulos-terciarios     
+        .caja.titulos-terciarios(data-aos="fade-right")   
           .col-lg-auto
-            figure(data-aos="fade-right")
+            figure
               img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
           .col
             h3 Partes de una caja de transferencia longitudinal
@@ -226,22 +226,22 @@
             span Esquema del flujo de fuerza en el sistema de transmisión con caja de transferencia
           .col-lg-12
             figure(data-aos="fade-left")
-              img(src='@/assets/curso/tema1/img10.png', alt='Esquema de transmisión con caja de cambios, transfer y flujo de fuerza.')   
+              img(src='@/assets/curso/tema1/img10.svg', alt='Esquema de transmisión con caja de cambios, transfer y flujo de fuerza.')   
 
     .row.d-flex.justify-content-center.mb-5
       .caja-text-img-nota-1
         .col-lg-auto.align-self-center
           figure(data-aos="fade-right").d-none.d-lg-block
-            img(src="@/assets/curso/intro/img2.png" style="width: 80px").m-auto
+            img(src="@/assets/curso/intro/img2.svg" style="width: 80px").m-auto
         .col-lg
           p.ajuste-p-bloque4 Los primeros modelos también contaban con un selector adicional que permitía engranar piñones para reducir la velocidad y aumentar la fuerza. Este mecanismo se conoce como <strong>reducción o baja velocidad (<em>LOW</em>)</strong>.
     
     <!-- BLOQUE 7 -->
     .row.mb-4
       .col-lg-auto
-        .caja.titulos-terciarios     
+        .caja.titulos-terciarios(data-aos="fade-right")    
           .col-lg-auto
-            figure(data-aos="fade-right")
+            figure
               img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
           .col
             h3 Partes de una caja de transferencia longitudinal
@@ -261,13 +261,13 @@
             span Detalle del mecanismo interno de una caja de transferencia con cadena
           .col-lg-12
             figure(data-aos="fade-left")
-              img(src='@/assets/curso/tema1/img12.png', alt='FIgura el mecanismo interno de una caja de transferencia con cadena, mostrando los componentes clave como ejes, engranajes y sistema de transmisión de potencia mediante cadena para distribuir el movimiento a las ruedas.')    
+              img(src='@/assets/curso/tema1/img12.svg', alt='FIgura el mecanismo interno de una caja de transferencia con cadena, mostrando los componentes clave como ejes, engranajes y sistema de transmisión de potencia mediante cadena para distribuir el movimiento a las ruedas.')    
 
     .row.d-flex.justify-content-center.mb-5
       .caja-text-img-nota-1
         .col-lg-auto.align-self-center
           figure(data-aos="fade-right").d-none.d-lg-block
-            img(src="@/assets/curso/intro/img2.png" style="width: 80px").m-auto
+            img(src="@/assets/curso/intro/img2.svg" style="width: 80px").m-auto
         .col-lg
           p.ajuste-p-bloque4 En los primeros modelos, esto se lograba desplazando un sistema de engranajes, permitiendo una relación de transmisión de <strong>1:1</strong> en alta velocidad y una reducción en baja velocidad.
 
@@ -275,9 +275,9 @@
     .row.fondo-text.mb-5
       .row.mb-4
         .col-lg-auto
-          .caja.titulos-terciarios     
+          .caja.titulos-terciarios(data-aos="fade-right")    
             .col-lg-auto
-              figure(data-aos="fade-right")
+              figure
                 img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
             .col
               h3 Caja de transferencia longitudinal moderna
@@ -294,7 +294,7 @@
         .col-lg-2
         .col-lg-8
           figure(data-aos="fade-up")
-            img(src='@/assets/curso/tema1/img13.png', alt='Diagrama del sistema de tracción en las cuatro ruedas con caja de transferencia.')
+            img(src='@/assets/curso/tema1/img13.svg', alt='Diagrama del sistema de tracción en las cuatro ruedas con caja de transferencia.')
 
       .bg--img_03
         .row
@@ -316,9 +316,9 @@
     <!-- BLOQUE 9 -->
     .row.mb-4
         .col-lg-auto
-          .caja.titulos-terciarios
+          .caja.titulos-terciarios(data-aos="fade-right")
             .col-lg-auto
-              figure(data-aos="fade-right")
+              figure
                 img(src="@/assets/curso/tema1/img1.svg" style="max-width: 68px").m-auto
             .col
               h3 Elementos clave de una caja de transferencia longitudinal moderna
@@ -335,7 +335,7 @@
       .col-lg-2
       .col-lg-8
         figure(data-aos="fade-up")
-          img(src='@/assets/curso/tema1/img15.png', alt='Diagrama del sistema de tracción en las cuatro ruedas con caja de transferencia.')
+          img(src='@/assets/curso/tema1/img15.svg', alt='Diagrama del sistema de tracción en las cuatro ruedas con caja de transferencia.')
 
     .row.mb-5
       .col-sm-6.col-lg-3.mb-lg-0
