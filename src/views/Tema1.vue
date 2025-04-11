@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Caja de transferencia
@@ -20,7 +20,7 @@
           .col-lg
             figure(data-aos="flip-left")
               img(src='@/assets/curso/tema1/img-1.svg', alt='Diagrama esquemático de un sistema de tracción en un vehículo, donde se representa un eje sin conexión y otro con un motor y un sistema de transmisión, presentando  la distribución de la fuerza motriz.')
-          .col-lg.text-tema1-bloque1
+          .col-lg.text-tema1-bloque1(data-aos="fade-up")
             p.mb-0 <strong>Tracción delantera:</strong> en configuraciones transversales, la fuerza se dirige a las ruedas delanteras. 
         .col-lg-5
           .titulo-sexto.color-acento-contenido
@@ -29,10 +29,10 @@
           .col-lg
             figure(data-aos="flip-left")
               img(src='@/assets/curso/tema1/img-2.svg', alt='Diagrama esquemático de un sistema de tracción en un vehículo con motor delantero y transmisión a las ruedas traseras.')
-          .col-lg.text-tema1-bloque1-2
+          .col-lg.text-tema1-bloque1-2(data-aos="fade-up")
             p.mb-0 <strong>Tracción posterior:</strong> cuando el motor y la caja de cambios están dispuestos longitudinalmente, la fuerza se transmite a las ruedas traseras.
  
-      p Algunos vehículos modernos han evolucionado hacia un sistema de tracción en ambos ejes, lo que mejora la seguridad, el agarre y la estabilidad. En este caso, la caja de transferencia se encarga de distribuir la potencia entre los ejes delantero y trasero.
+      p.mb-5 Algunos vehículos modernos han evolucionado hacia un sistema de tracción en ambos ejes, lo que mejora la seguridad, el agarre y la estabilidad. En este caso, la caja de transferencia se encarga de distribuir la potencia entre los ejes delantero y trasero.
 
     <!-- BLOQUE 2 -->
     .row.mb-4
@@ -46,7 +46,7 @@
 
     p.mb-5 En los vehículos con tracción total o en las cuatro ruedas, la caja de transferencia permite conectar la salida de la caja de cambios con ambos ejes, independientemente de la disposición del motor.
 
-    TabsB.color-acento-contenido.mb-4
+    TabsB.color-acento-contenido.mb-4(data-aos="fade-up")
       .py-4.py-lg-5(titulo="Motor longitudinal" :icono="require('@/assets/curso/tema1/img2.svg')")
         .row
           .col-lg-6.mb-4.mb-md-0
@@ -70,7 +70,7 @@
       h2 1.1 Caja de transferencia según la disposición del motor
 
     .row.fondo-text
-      p.mb-4 La caja de transferencia varía según la disposición del motor en el vehículo. En motores longitudinales, distribuye la fuerza desde la caja de cambios hacia los diferenciales delantero y trasero mediante ejes de propulsión. En motores transversales, se integra con el diferencial delantero y envía la potencia al eje trasero mediante un sistema de piñones y cardán.
+      p.mb-5 La caja de transferencia varía según la disposición del motor en el vehículo. En motores longitudinales, distribuye la fuerza desde la caja de cambios hacia los diferenciales delantero y trasero mediante ejes de propulsión. En motores transversales, se integra con el diferencial delantero y envía la potencia al eje trasero mediante un sistema de piñones y cardán.
 
       .row.mb-4
         .col-lg-auto
@@ -82,7 +82,7 @@
               h3 Caja de transferencia para motor transversal
 
       .row.mb-5
-        .col-lg-6.caja-text-img-tema1-bloque3
+        .col-lg-6.caja-text-img-tema1-bloque3(data-aos="fade-right")
           h5 Cuando el motor y la caja de cambios están instalados transversalmente:
           <ul class="fa-ul">
             <li class="mb-4"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>La caja de cambios transmite la fuerza al diferencial delantero, que impulsa las ruedas delanteras.</li>
@@ -98,10 +98,10 @@
               figure(data-aos="fade-left")
                 img(src='@/assets/curso/tema1/img5.svg', alt='Diagrama en corte de una caja de transferencia con diferencial delantero.')
 
-      .row.d-flex.justify-content-center
+      .row.d-flex.justify-content-center(data-aos="fade-right")
         .caja-text-img-nota-1
           .col-lg-auto.align-self-center
-            figure(data-aos="fade-right").d-none.d-lg-block
+            figure.d-none.d-lg-block
               img(src="@/assets/curso/intro/img2.svg" style="width: 80px").m-auto
           .col-lg
             p.mb-0 Este sistema es más compacto, ya que solo requiere un cambio de dirección en la transmisión de la fuerza desde el eje de salida de la caja hasta la orientación longitudinal del vehículo. 
@@ -132,7 +132,7 @@
             img(src='@/assets/curso/tema1/img7.svg', alt='Esquema de transmisión con caja de cambios automática y caja de transferencia.')
       
     .row.mb-5
-      .col-lg-6.caja-text-img-tema1-bloque3
+      .col-lg-6.caja-text-img-tema1-bloque3(data-aos="fade-right")
         h5 El funcionamiento de la caja de transferencia es:
         <ul class="fa-ul">
           <li class="mb-3"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Los <strong>ejes de propulsión</strong> reciben la fuerza de la caja de transferencia y la transmiten:</li>
@@ -154,9 +154,9 @@
               img(src='@/assets/curso/tema1/img8.svg', alt='Esquema de un sistema de transmisión con caja de cambios, diferenciales y semiejes.')
 
     .row.d-flex.justify-content-center.mb-5
-      .caja-text-img-nota-1
+      .caja-text-img-nota-1(data-aos="fade-right")
         .col-lg-auto.align-self-center
-          figure(data-aos="fade-right").d-none.d-lg-block
+          figure.d-none.d-lg-block
             img(src="@/assets/curso/intro/img2.svg" style="width: 80px").m-auto
         .col-lg
           p.ajuste-p-bloque4 En la figura se presenta la disposición de la caja de transferencia, los ejes de propulsión o <strong>cardanes</strong>, y los diferenciales delantero y posterior, mostrando cómo se distribuye la fuerza hacia las ruedas del vehículo. 

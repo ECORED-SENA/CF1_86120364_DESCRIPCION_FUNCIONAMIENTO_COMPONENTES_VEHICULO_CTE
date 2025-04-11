@@ -2,7 +2,7 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
@@ -14,14 +14,14 @@
 
     <!-- BLOQUE 2 --> 
     .row.mb-4
-      .bloque-texto-g.p-3.p-sm-4.p-md-5
+      .bloque-texto-g.p-3.p-sm-4.p-md-5(data-aos="fade-up")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/intro/img1.png')})`}"
         )
         .bloque-texto-g__texto.p-4
           p.mb-0 A lo largo de los años, este sistema ha evolucionado desde mecanismos manuales hasta versiones electrónicas más avanzadas, que permiten seleccionar la tracción de manera automática según las condiciones del camino. Esto ha optimizado el rendimiento y la seguridad en la conducción, facilitando la adaptación a diferentes superficies.
     
-    .row.caja-text-img-nota
+    .row.caja-text-img-nota(data-aos="fade-right")
       .col-lg-auto.align-self-center
         figure(data-aos="fade-right").d-none.d-lg-block
           img(src="@/assets/curso/intro/img2.svg" style="width: 80px").m-auto
