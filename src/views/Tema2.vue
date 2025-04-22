@@ -24,10 +24,10 @@
           <li class="mb-3"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Este embrague atrae una <strong>campana magnética</strong>, que a su vez comprime un <strong>embrague multidisco</strong>.</li>
           <li class="mb-3"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>La activación del sistema depende de varios factores:</li>
           <ul>
-            <li class="li-tema1-bloque4"><strong>Aceleración</strong></li>
-            <li class="li-tema1-bloque4"><strong>Diferentes velocidades de las ruedas</strong></li>
-            <li class="li-tema1-bloque4"><strong>Marcha seleccionada</strong></li>
-            <li class="li-tema1-bloque4 mb-3"><strong>Otros parámetros del vehículo</strong></li>
+            <li class="li-tema1-bloque4"><strong>Aceleración.</strong></li>
+            <li class="li-tema1-bloque4"><strong>Diferentes velocidades de las ruedas.</strong></li>
+            <li class="li-tema1-bloque4"><strong>Marcha seleccionada.</strong></li>
+            <li class="li-tema1-bloque4 mb-3"><strong>Otros parámetros del vehículo.</strong></li>
           </ul>
           <li class="mb-3"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>El computador envía corriente al embrague electromagnético para transferir tracción al eje propulsor posterior.</li>
           <li><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Puede incluir un <strong>mecanismo de control de torque</strong>, con dos pistas ranuradas que ajustan la tracción según la diferencia de giro entre el eje de la transferencia y el eje de salida.</li>

@@ -244,7 +244,7 @@ export default {
         },
         {
           nombre: 'Robinson Javier Ordoñez Barreiro',
-          cargo: 'Desarrollador <em>fullstack</em>',
+          cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },

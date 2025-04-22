@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Texto que describa la imagen")
+          img(src="@/assets/curso/sintesis.svg", alt="Diagrama de la caja de transferencia que ilustra su función de transmitir la fuerza del motor a las ruedas motrices. Se detallan cuatro categorías principales: tipos de motores (transversal y longitudinal), modos de tracción (dos ruedas y cuatro ruedas), modos de velocidad (alta y baja) y sistemas modernos (mando eléctrico y acople electromagnético).")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

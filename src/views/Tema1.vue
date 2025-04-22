@@ -261,7 +261,7 @@
             span Detalle del mecanismo interno de una caja de transferencia con cadena
           .col-lg-12
             figure(data-aos="fade-left")
-              img(src='@/assets/curso/tema1/img12.svg', alt='FIgura el mecanismo interno de una caja de transferencia con cadena, mostrando los componentes clave como ejes, engranajes y sistema de transmisión de potencia mediante cadena para distribuir el movimiento a las ruedas.')    
+              img(src='@/assets/curso/tema1/img12.svg', alt='Figura el mecanismo interno de una caja de transferencia con cadena, mostrando los componentes clave como ejes, engranajes y sistema de transmisión de potencia mediante cadena para distribuir el movimiento a las ruedas.')    
 
     .row.d-flex.justify-content-center.mb-5
       .caja-text-img-nota-1
@@ -308,7 +308,7 @@
                   p.mb-0 La fuerza va directamente al eje propulsor trasero, conectado al diferencial posterior.
               .row(titulo="Tracción en las cuatro ruedas")
                 .col-12
-                  p.mb-0 El piñón de mando del eje estriado se une al eje de mando, transmitiendo la fuerza a través de una <strong>cadena Morse</strong> hasta el diferencial delantero.                        
+                  p.mb-0 El piñón de mando del eje estriado se une al eje de mando, transmitiendo la fuerza a través de una <strong>cadena <em>Morse</em></strong> hasta el diferencial delantero.                        
               .row(titulo="Modo de reducción (<em>LOW</em>)") 
                 .col-12
                 p.mb-0 Un piñón entra en el sistema planetario de reducción, disminuyendo la velocidad de los ejes propulsores y aumentando la fuerza (relación aproximada <strong>2.5:1</strong>).
@@ -330,12 +330,12 @@
       .col-lg-7
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 10.
-          span Despiece de una caja de transferencia con sistema planetario y cadena Morse
+          span Despiece de una caja de transferencia con sistema planetario y cadena <em>Morse</em>
     .row.mb-5
       .col-lg-2
       .col-lg-8
         figure(data-aos="fade-up")
-          img(src='@/assets/curso/tema1/img15.svg', alt='Diagrama del sistema de tracción en las cuatro ruedas con caja de transferencia.')
+          img(src='@/assets/curso/tema1/img15.svg', alt='Despiece de una caja de transferencia con sistema planetario y cadena Morse.')
 
     .row.mb-5
       .col-sm-6.col-lg-3.mb-lg-0
@@ -360,7 +360,7 @@
             .col-7
               figure(data-aos="flip-left")
                 img(src='@/assets/curso/tema1/img18.png', alt='Texto que describa la imagen')
-          h5 Cadena Morse
+          h5 Cadena <em>Morse</em>
           p De gran dimensión, transmite la fuerza al eje secundario, enviándola al diferencial delantero.
       .col-sm-6.col-lg-3.mb-lg-0
         .caja-text-img-tema1-bloque9
