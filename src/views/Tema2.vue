@@ -13,7 +13,7 @@
     .row.mb-5.h-100.align-items-center
       .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 11.
+          h5 Figura 13.
           span Embrague multidisco con control de torque 
         .col-lg-12
           figure(data-aos="fade-right")
@@ -49,7 +49,7 @@
       .col-lg-2
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 12.
+          h5 Figura 14.
           span Esquema interno de una caja de transferencia con sistema planetario y embrague electromagnético
       .col-lg-2
     .row.mb-5
@@ -114,7 +114,7 @@
         </ul>
       .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 13.
+          h5 Figura 15.
           span Motor eléctrico con engranaje de reducción para caja de transferencia
         .col-lg-12
           figure(data-aos="fade-left")
@@ -180,7 +180,7 @@
         </ul>
       .col-lg-6
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 14.
+          h5 Figura 16.
           span Instalación del motor eléctrico en la caja de transferencia
         .col-lg-12
           figure(data-aos="fade-left")
@@ -202,7 +202,7 @@
       .col-lg-2
       .col-lg-7
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 15.
+          h5 Figura 17.
           span Diferentes configuraciones de flujo de potencia en la caja de transferencia
     .row.mb-5
       .col-lg-2

@@ -53,6 +53,9 @@
             h4 Motor longitudinal
             p La caja de transferencia recibe la fuerza de la caja de cambios y la distribuye al diferencial trasero y, a través de engranajes o cadenas, al diferencial delantero.
           .col-lg-6
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 3.
+              span Motor longitudinal
             figure(data-aos="zoom-out")
               img(src='@/assets/curso/tema1/img3.svg', alt='Diagrama del sistema de transmisión de un vehículo 4x4, presentando la caja de cambios, caja de transferencia y los diferenciales delantero y posterior.')
       .py-4.py-lg-5(titulo="Motor transversal" :icono="require('@/assets/curso/tema1/img2.svg')")
@@ -61,6 +64,9 @@
             h4 Motor transversal
             p La fuerza se transmite directamente al diferencial delantero. A través de un juego de piñones, la caja de transferencia envía la propulsión hacia el diferencial trasero.
           .col-lg-6
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 4.
+              span Motor transversal
             figure(data-aos="zoom-out")
               img(src='@/assets/curso/tema1/img4.svg', alt='Diagrama del sistema de transmisión de un vehículo con caja de cambios, caja de transferencia y diferenciales delantero y posterior.')
 
@@ -92,7 +98,7 @@
         .col-lg-6
           .figura
             .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 3.
+              h5 Figura 5.
               span Caja de transferencia diferencial delantera 
             .col-lg-12
               figure(data-aos="fade-left")
@@ -123,7 +129,7 @@
         .col-lg-3
         .col-lg-7
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 4.
+            h5 Figura 6.
             span Esquema de transmisión: caja de cambios automática y caja de transferencia
       .row.mb-5
         .col-lg-3
@@ -147,7 +153,7 @@
       .col-lg-6
         .figura
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 5.
+            h5 Figura 7.
             span Esquema del sistema de transmisión con caja de transferencia y diferenciales
           .col-lg-12
             figure(data-aos="fade-left")
@@ -185,7 +191,7 @@
         .col-lg-6
           .figura
             .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 6.
+              h5 Figura 8.
               span Diagrama de una caja de transferencia y sus conexiones
             .col-lg-12
               figure(data-aos="fade-left")
@@ -222,7 +228,7 @@
       .col-lg-6
         .figura
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 7.
+            h5 Figura 9.
             span Esquema del flujo de fuerza en el sistema de transmisión con caja de transferencia
           .col-lg-12
             figure(data-aos="fade-left")
@@ -257,7 +263,7 @@
       .col-lg-6
         .figura
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 8.
+            h5 Figura 10.
             span Detalle del mecanismo interno de una caja de transferencia con cadena
           .col-lg-12
             figure(data-aos="fade-left")
@@ -288,7 +294,7 @@
         .col-lg-2
         .col-lg-7
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 9.
+            h5 Figura 11.
             span Esquema del sistema de tracción en las cuatro ruedas con caja de transferencia
       .row.mb-5  
         .col-lg-2
@@ -329,7 +335,7 @@
       .col-lg-2
       .col-lg-7
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 10.
+          h5 Figura 12.
           span Despiece de una caja de transferencia con sistema planetario y cadena <em>Morse</em>
     .row.mb-5
       .col-lg-2
