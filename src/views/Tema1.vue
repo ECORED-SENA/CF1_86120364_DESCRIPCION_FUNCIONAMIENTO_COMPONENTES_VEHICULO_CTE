@@ -20,6 +20,7 @@
           .col-lg
             figure(data-aos="flip-left")
               img(src='@/assets/curso/tema1/img-1.svg', alt='Diagrama esquemático de un sistema de tracción en un vehículo, donde se representa un eje sin conexión y otro con un motor y un sistema de transmisión, presentando  la distribución de la fuerza motriz.')
+            figcaption.mt-2 #[b Nota.] Esquema de un vehículo con tracción delantera. (s.f.). [Imagen].
           .col-lg.text-tema1-bloque1(data-aos="fade-up")
             p.mb-0 <strong>Tracción delantera:</strong> en configuraciones transversales, la fuerza se dirige a las ruedas delanteras. 
         .col-lg-5
@@ -29,6 +30,7 @@
           .col-lg
             figure(data-aos="flip-left")
               img(src='@/assets/curso/tema1/img-2.svg', alt='Diagrama esquemático de un sistema de tracción en un vehículo con motor delantero y transmisión a las ruedas traseras.')
+            figcaption.mt-2 #[b Nota.] Esquema de un vehículo con tracción posterior. (s.f.). [Imagen].
           .col-lg.text-tema1-bloque1-2(data-aos="fade-up")
             p.mb-0 <strong>Tracción posterior:</strong> cuando el motor y la caja de cambios están dispuestos longitudinalmente, la fuerza se transmite a las ruedas traseras.
  
@@ -58,6 +60,7 @@
               span Motor longitudinal
             figure(data-aos="zoom-out")
               img(src='@/assets/curso/tema1/img3.svg', alt='Diagrama del sistema de transmisión de un vehículo 4x4, presentando la caja de cambios, caja de transferencia y los diferenciales delantero y posterior.')
+            figcaption.mt-2 #[b Nota.] Motor longitudinal. (s.f.). [Imagen].
       .py-4.py-lg-5(titulo="Motor transversal" :icono="require('@/assets/curso/tema1/img2.svg')")
         .row
           .col-lg-6.mb-4.mb-md-0
@@ -69,6 +72,7 @@
               span Motor transversal
             figure(data-aos="zoom-out")
               img(src='@/assets/curso/tema1/img4.svg', alt='Diagrama del sistema de transmisión de un vehículo con caja de cambios, caja de transferencia y diferenciales delantero y posterior.')
+            figcaption.mt-2 #[b Nota.] Motor transversal. (s.f.). [Imagen].
 
     Separador
     <!-- BLOQUE 3 -->
@@ -103,6 +107,7 @@
             .col-lg-12
               figure(data-aos="fade-left")
                 img(src='@/assets/curso/tema1/img5.svg', alt='Diagrama en corte de una caja de transferencia con diferencial delantero.')
+              figcaption.mt-2 #[b Nota.] Caja de transferencia diferencial delantera. (s.f.). [Imagen].
 
       .row.d-flex.justify-content-center(data-aos="fade-right")
         .caja-text-img-nota-1
@@ -125,17 +130,15 @@
         figure(data-aos="fade-left").d-none.d-lg-block
           img(src="@/assets/curso/tema1/img6.png", alt="Diagrama en corte de una caja de transferencia con diferencial delantero." style="max-width: 400px").m-auto
 
-      .row.my-5
-        .col-lg-3
+      .row.justify-content-center.my-5
+          
         .col-lg-7
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 6.
             span Esquema de transmisión: caja de cambios automática y caja de transferencia
-      .row.mb-5
-        .col-lg-3
-        .col-lg-6
           figure(data-aos="fade-up")
             img(src='@/assets/curso/tema1/img7.svg', alt='Esquema de transmisión con caja de cambios automática y caja de transferencia.')
+          figcaption.mt-2 #[b Nota.] Esquema de transmisión: caja de cambios automática y caja de transferencia. (s.f.). [Imagen].
       
     .row.mb-5
       .col-lg-6.caja-text-img-tema1-bloque3(data-aos="fade-right")
@@ -158,6 +161,7 @@
           .col-lg-12
             figure(data-aos="fade-left")
               img(src='@/assets/curso/tema1/img8.svg', alt='Esquema de un sistema de transmisión con caja de cambios, diferenciales y semiejes.')
+            figcaption.mt-2 #[b Nota.] Esquema del sistema de transmisión con caja de transferencia y diferenciales. (s.f.). [Imagen].
 
     .row.d-flex.justify-content-center.mb-5
       .caja-text-img-nota-1(data-aos="fade-right")
@@ -195,7 +199,8 @@
               span Diagrama de una caja de transferencia y sus conexiones
             .col-lg-12
               figure(data-aos="fade-left")
-                img(src='@/assets/curso/tema1/img9.svg', alt='Diagrama de una caja de transferencia con sus conexiones.') 
+                img(src='@/assets/curso/tema1/img9.svg', alt='Diagrama de una caja de transferencia con sus conexiones.')
+              figcaption.mt-2 #[b Nota.] Diagrama de una caja de transferencia y sus conexiones. (s.f.). [Imagen].
 
       .row.d-flex.justify-content-center
         .caja-text-img-nota-1
@@ -232,7 +237,8 @@
             span Esquema del flujo de fuerza en el sistema de transmisión con caja de transferencia
           .col-lg-12
             figure(data-aos="fade-left")
-              img(src='@/assets/curso/tema1/img10.svg', alt='Esquema de transmisión con caja de cambios, transfer y flujo de fuerza.')   
+              img(src='@/assets/curso/tema1/img10.svg', alt='Esquema de transmisión con caja de cambios, transfer y flujo de fuerza.')
+            figcaption.mt-2 #[b Nota.] Esquema del flujo de fuerza en el sistema de transmisión con caja de transferencia. (s.f.). [Imagen].
 
     .row.d-flex.justify-content-center.mb-5
       .caja-text-img-nota-1
@@ -267,7 +273,8 @@
             span Detalle del mecanismo interno de una caja de transferencia con cadena
           .col-lg-12
             figure(data-aos="fade-left")
-              img(src='@/assets/curso/tema1/img12.svg', alt='Figura el mecanismo interno de una caja de transferencia con cadena, mostrando los componentes clave como ejes, engranajes y sistema de transmisión de potencia mediante cadena para distribuir el movimiento a las ruedas.')    
+              img(src='@/assets/curso/tema1/img12.svg', alt='Figura el mecanismo interno de una caja de transferencia con cadena, mostrando los componentes clave como ejes, engranajes y sistema de transmisión de potencia mediante cadena para distribuir el movimiento a las ruedas.')
+            figcaption.mt-2 #[b Nota.] Detalle del mecanismo interno de una caja de transferencia con cadena. (s.f.). [Imagen].
 
     .row.d-flex.justify-content-center.mb-5
       .caja-text-img-nota-1
@@ -301,6 +308,7 @@
         .col-lg-8
           figure(data-aos="fade-up")
             img(src='@/assets/curso/tema1/img13.svg', alt='Diagrama del sistema de tracción en las cuatro ruedas con caja de transferencia.')
+          figcaption.mt-2 #[b Nota.] Esquema del sistema de tracción en las cuatro ruedas con caja de transferencia. (s.f.). [Imagen].
 
       .bg--img_03
         .row
@@ -342,6 +350,7 @@
       .col-lg-8
         figure(data-aos="fade-up")
           img(src='@/assets/curso/tema1/img15.svg', alt='Despiece de una caja de transferencia con sistema planetario y cadena Morse.')
+        figcaption.mt-2 #[b Nota.] Despiece de una caja de transferencia con sistema planetario y cadena #[em Morse]. (s.f.). [Imagen].
 
     .row.mb-5
       .col-sm-6.col-lg-3.mb-lg-0
@@ -387,6 +396,14 @@ export default {
   data: () => ({
     mostrarIndicadorTarjetaAudio: true,
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

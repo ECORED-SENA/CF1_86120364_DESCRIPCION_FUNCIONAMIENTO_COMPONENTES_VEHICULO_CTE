@@ -15,9 +15,9 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 13.
           span Embrague multidisco con control de torque 
-        .col-lg-12
-          figure(data-aos="fade-right")
-            img(src='@/assets/curso/tema2/img1.svg', alt='Esquema de embrague multidisco con control de torque.')
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema2/img1.svg', alt='Esquema de embrague multidisco con control de torque.')
+        figcaption.mt-2 #[b Nota.] Embrague multidisco con control de torque. (s.f.). [Imagen].
       .col-lg-6.caja-text-img-tema2-bloque1.h-100.align-items-center
         <ul class="fa-ul">
           <li class="mb-3"><span class="fa-li"><i class="fas fa-wrench ajuste-i-color"></i></span>Cuando las ruedas delanteras pierden agarre, el computador de control del sistema activa un <strong>embrague electromagnético</strong>.</li>
@@ -45,18 +45,14 @@
 
     p.mb-5 Este tipo de caja de transferencia, controlada electrónicamente, permite la selección de alta velocidad, baja velocidad y distribución de tracción mediante una <strong>perilla selectora</strong>. El proceso de funcionamiento es: 
 
-    .row
-      .col-lg-2
-      .col-lg-8
+    .row.justify-content-center.mb-5
+      .col-lg-7
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 14.
           span Esquema interno de una caja de transferencia con sistema planetario y embrague electromagnético
-      .col-lg-2
-    .row.mb-5
-      .col-lg-2
-      .col-lg-8
         figure(data-aos="fade-up")
           img(src='@/assets/curso/tema2/img2.svg', alt='Esquema interno de una caja de transferencia con sistema planetario y embrague electromagnético.')
+        figcaption.mt-2 #[b Nota.] Esquema interno de una caja de transferencia con sistema planetario y embrague electromagnético. (s.f.). [Imagen].
 
     <!-- BLOQUE 3 -->
     .row.mb-4
@@ -116,9 +112,9 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 15.
           span Motor eléctrico con engranaje de reducción para caja de transferencia
-        .col-lg-12
-          figure(data-aos="fade-left")
-            img(src='@/assets/curso/tema2/img3.svg', alt='Diagrama de un motor eléctrico con engranaje de reducción diseñado para operar en una caja de transferencia.')
+        figure(data-aos="fade-left")
+          img(src='@/assets/curso/tema2/img3.svg', alt='Diagrama de un motor eléctrico con engranaje de reducción diseñado para operar en una caja de transferencia.')
+        figcaption.mt-2 #[b Nota.] Motor eléctrico con engranaje de reducción para caja de transferencia. (s.f.). [Imagen].
 
     h4.mb-5 El funcionamiento del sensor de posición: 
       
@@ -182,9 +178,9 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 16.
           span Instalación del motor eléctrico en la caja de transferencia
-        .col-lg-12
-          figure(data-aos="fade-left")
-            img(src='@/assets/curso/tema2/img8.svg', alt='Diagrama del proceso de instalación de un motor eléctrico en la caja de transferencia.')
+        figure(data-aos="fade-left")
+          img(src='@/assets/curso/tema2/img8.svg', alt='Diagrama del proceso de instalación de un motor eléctrico en la caja de transferencia.')
+        figcaption.mt-2 #[b Nota.] Instalación del motor eléctrico en la caja de transferencia. (s.f.). [Imagen].
 
     <!-- BLOQUE 6 -->
     .row.mb-4
@@ -198,18 +194,14 @@
 
     p.mb-5 La caja de transferencia tiene una estructura similar a la de una <strong>caja de cambios sincronizada</strong>, incluyendo <strong>collarines y sincronizadores</strong>. Esto permite cambios de posición suaves y protege los componentes internos del sistema.
     
-    .row
-      .col-lg-2
+    .row.justify-content-center.mb-5
       .col-lg-7
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 17.
           span Diferentes configuraciones de flujo de potencia en la caja de transferencia
-    .row.mb-5
-      .col-lg-2
-      .col-lg-8
         figure(data-aos="fade-up")
           img(src='@/assets/curso/tema2/img9.svg', alt='Representación esquemática de distintas configuraciones del flujo de potencia dentro de una caja de transferencia.')
-
+        figcaption.mt-2 #[b Nota.] Diferentes configuraciones de flujo de potencia en la caja de transferencia. (s.f.). [Imagen].
     
     p Con esta estructura, la información queda clara y mejor organizada, facilitando la comprensión del funcionamiento del sistema de transferencia de tracción en el vehículo.
 
